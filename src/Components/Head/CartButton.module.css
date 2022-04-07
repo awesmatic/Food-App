@@ -1,4 +1,4 @@
-.cartbutton {
+.cartButton {
   /* border: 2px solid black; */
   border: none;
   display: flex;
@@ -15,29 +15,33 @@
   font: inherit;
 }
 
-.cartbutton:hover,
-.cartbutton:active {
+.cartButton:hover,
+.cartButton:active {
   background-color: #041406;
 }
 
-.cartbutton img {
+.cartButton img {
   /* border: 2px solid red; */
   padding: 0;
   margin: 0;
-  width: 30px;
+  width: 2rem;
   height: auto;
 }
 
-.cartbutton p {
+.cartButton p {
   font-size: 1rem;
   padding: 0 0.5rem;
 }
 
-.cartbutton .counter {
+.cartButton .counter {
   background-color: #b94517;
   /* border: 6px solid red; */
   padding: 0.3rem;
+  /* margin-left: 5rem; */
   border-radius: 5rem;
+  color: black;
+  font-weight: 900;
+  font-size: 1rem;
 }
 
 .counter:hover .badge,

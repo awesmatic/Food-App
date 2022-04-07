@@ -31,20 +31,21 @@ const AvailableMeals = () => {
       description: "Famous Hyderabadi Briyani ",
       price: 250,
     },
+    // {
+    //   id: "m5",
+    //   name: "Choole Bhature",
+    //   img: "img/Chole Bhature.jpg",
+    //   description: "Chole Bhature ",
+    //   price: 250,
+    // },
     {
       id: "m5",
-      name: "Choole Bhature",
-      img: "img/Chole Bhature.jpg",
-      description: "Chole Bhature ",
+      name: "Paneer Paratha",
+      img: "img/Palak_and_Paneer_Stuffed_Paratha_Recipe-1022.jpg",
+      description: "Paneer Paratha ",
       price: 250,
     },
-    {
-      id: "m6",
-      name: "Butter Paneer",
-      img: "img/butter-paneer-masala-one-pot.jpg",
-      description: "Butter paneer ",
-      price: 250,
-    },
+
     {
       id: "m7",
       name: "Fried Momos",
@@ -52,13 +53,13 @@ const AvailableMeals = () => {
       description: "Fried Momos ",
       price: 250,
     },
-    {
-      id: "m8",
-      name: "Veg Soup",
-      img: "img/Homemade-Vegetable-Soup-Recipe-2-1200.jpg",
-      description: "Veg Soup ",
-      price: 250,
-    },
+    // {
+    //   id: "m8",
+    //   name: "Veg Soup",
+    //   img: "img/Homemade-Vegetable-Soup-Recipe-2-1200.jpg",
+    //   description: "Veg Soup ",
+    //   price: 250,
+    // },
     {
       id: "m8",
       name: "Egg roll",
@@ -66,20 +67,14 @@ const AvailableMeals = () => {
       description: "Kolkata egg roll ",
       price: 250,
     },
-    {
-      id: "m9",
-      name: "Paneer Paratha",
-      img: "img/Palak_and_Paneer_Stuffed_Paratha_Recipe-1022.jpg",
-      description: "Paneer Paratha ",
-      price: 250,
-    },
-    {
-      id: "m10",
-      name: "Rasmalai",
-      img: "img/Rasmalai-4.jpg",
-      description: "Rasmalai",
-      price: 250,
-    },
+
+    // {
+    //   id: "m10",
+    //   name: "Rasmalai",
+    //   img: "img/Rasmalai-4.jpg",
+    //   description: "Rasmalai",
+    //   price: 250,
+    // },
     {
       id: "m11",
       name: "Jeera Rice",
@@ -87,20 +82,27 @@ const AvailableMeals = () => {
       description: "Jeera Rice ",
       price: 250,
     },
-    {
-      id: "m12",
-      name: "pizza",
-      img: "img/56933159.webp",
-      description: "pizza ",
-      price: 250,
-    },
-    {
-      id: "m13",
-      name: "Saucy Ramen",
-      img: "img/saucy-ramen-noodles-for-WP-500x500.png",
-      description: "Saucy Ramen ",
-      price: 250,
-    },
+    // {
+    //   id: "m12",
+    //   name: "pizza",
+    //   img: "img/56933159.webp",
+    //   description: "pizza ",
+    //   price: 250,
+    // },
+    // {
+    //   id: "m6",
+    //   name: "Butter Paneer",
+    //   img: "img/butter-paneer-masala-one-pot.jpg",
+    //   description: "Butter paneer ",
+    //   price: 250,
+    // },
+    // {
+    //   id: "m13",
+    //   name: "Saucy Ramen",
+    //   img: "img/saucy-ramen-noodles-for-WP-500x500.png",
+    //   description: "Saucy Ramen ",
+    //   price: 250,
+    // },
   ];
   return (
     <div className={classes.availableMeal}>

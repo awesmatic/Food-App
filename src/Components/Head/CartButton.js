@@ -12,7 +12,7 @@ const CartButton = () => {
   };
 
   return (
-    <button className={classes.cartbutton} onClick={cartButtonHandler}>
+    <button className={classes.cartButton} onClick={cartButtonHandler}>
       <img src={cart} alt="cart"></img>
       <p>Your Cart</p>
       <p className={classes.counter}>{totalCounter}</p>
